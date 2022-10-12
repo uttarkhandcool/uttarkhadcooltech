@@ -1,0 +1,620 @@
+*{
+	padding: 0px;
+	margin: 0px; 
+}
+a{
+	color: unset !important;
+	text-decoration: unset !important;
+}
+.head{
+	padding-top: 15px;
+	padding-bottom: 50px;
+}
+.head .col-md-2 i{
+	width: 30px;
+	height: 30px;
+	padding: 10px !important;
+	background-color: gray;
+	border-radius: 50%;
+	color: white;
+}
+.head .col-md-2 i:first-child{
+	background-color: #0090d6;
+}
+.head .col-md-5 i{
+	margin-right: 12px;
+	color: #0090d6;
+}
+.head .col-md-5{
+	text-align: right;
+}
+.banner{
+	height: 600px;
+	background: url('../images/index-K-Sir-_02.png') center; 
+}
+.nav{
+	height: 85px;
+	top: -40px;
+	position: absolute;
+	background: url('../images/nav.png');
+}
+.header{
+	background-color: #f5f5f5;
+}
+@font-face {
+font-family: "PoetsenOne";
+src: url("../fonts/PoetsenOne-Regular.ttf");
+}
+@font-face {
+font-family: "OpenSans";
+src: url("../fonts/OpenSans-Semibold.ttf");
+}
+.logo{
+	font-size: 40px;
+	font-family: PoetsenOne/*Myriad Pro*/;
+	color: #575757;
+}
+.nav span{
+	color: #0090d6;
+	padding-left: 5px;
+}
+.nav p{
+	padding-left: 20px;
+	font-family: OpenSans;
+	font-size: 15px;
+	letter-spacing: 0.3px;
+	font-weight: bold;
+	color: gray;
+	text-transform: capitalize;
+}
+.blank{
+	width: 240px;
+	height: 266px;
+	position: absolute;
+	background-color: rgba(0,0,0,0.7);
+	text-align: center;
+	top: -270px;
+}
+.blank p{
+	text-align: justify;
+	padding: 15px;
+	margin-top: 30px;
+	color: white;
+}
+.det-btn{
+	background-color: #0090D6;
+	color: white;
+	border-radius: 10px !important;
+}
+.det-btn:hover{
+	color: #0090D6 !important;
+	background-color: white;
+}
+.images-ab{
+	overflow: hidden;
+}
+.images-ab:hover .blank{
+	transition: 0.5s;
+	top: 0px;
+}
+.menu ul li{
+	font-family: OpenSans;
+	margin-top: 35px;
+	list-style: none;
+	display: inline-block;
+	margin-left: 75px;
+	text-transform: uppercase;
+	color: white;
+	font-size: 15px !important;
+}
+.menu ul li:hover{
+	color: #575757;
+	cursor: pointer;
+}
+.banner-txt{
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	padding-left: 130px !important;
+	padding-right: 130px !important;
+}
+.banner-txt h2{
+	text-transform: uppercase;
+	margin-top:130px;
+}
+.banner-txt p{
+	margin-top: 30px;
+	font-weight: normal;
+	font-size: 16px;
+	font-family: OpenSans;
+}
+.about-txt{
+	font-weight: bold;
+	text-align: center;
+	padding-left: 130px !important;
+	padding-right: 130px !important;
+}
+.about-txt h1{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top:80px;
+	margin-bottom: 20px;
+	/*#575757*/
+}
+.about-txt h1 span{
+	color: #0090d6;
+}
+.about-txt .hr1{
+	margin: auto;
+	width: 8px !important;
+	height:8px !important;
+	border:none;
+	float: left;
+	position: relative;
+	top: -2px;	
+	background-color:#575757 !important;
+}
+.about-txt hr{
+	margin: auto;
+	width: 100px;
+	height:3px;
+	float: left;
+	border:none;
+	background-color:#0090d6;
+}
+.line{
+	width: 120px;
+	height: 5px;
+	margin: auto;
+}
+.about-txt p{
+	margin-top: 30px;
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 0.2px;
+	font-family: OpenSans;
+}
+.welcome{
+	margin-top: 30px;
+}
+.welcome h3{
+/*	font-weight: bold;*/
+	font-family: OpenSans;
+	color: #0090d6;
+	margin-bottom: 25px;
+}
+.welcome ul li{
+	font-size: 14px;
+	list-style-image: url("../images/index-K-Sir-_003_03.png");
+	font-family: OpenSans;
+	margin-top: 25px;
+}
+.welcome img{
+	box-shadow: 1px 10px blur gray;
+}
+.course{
+	height: 653px;
+	margin-top: 70px;
+	background: url('../images/index-K-Sir-_09 (2).png');
+}
+.course-txt{
+	font-weight: bold;
+	text-align: center;
+	color: #575757;
+	
+}
+.course-txt h1{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top:80px;
+	margin-bottom: 20px;
+	/*#575757*/
+}
+.course-txt h1 span{
+	color: #0090d6;
+}
+.course-txt .hr1{
+	margin: auto;
+	width: 8px !important;
+	height:8px !important;
+	border:none;
+	float: left;
+	position: relative;
+	top: -2px;	
+	background-color:#575757 !important;
+}
+.course-txt hr{
+	margin: auto;
+	width: 100px;
+	height:3px;
+	float: left;
+	border:none;
+	background-color:#0090d6;
+}
+.course-txt p{
+	margin-top: 30px;
+	font-weight: normal;
+	font-size: 14px;
+
+	line-height: 30px;
+	font-family: OpenSans;
+}
+.course-img{
+	height: 91px;
+	background: url('../images/index-K-Sir-_10 (2).png') no-repeat;
+}
+.course-img i{
+	margin:auto;
+	padding: 15px 20px 0px 20px;
+	font-size: 50px;
+}
+.course-img img{
+	padding: 15px 20px 0px 15px;
+}
+.seo{
+	padding: 19px 0px 0px 8px !important;
+}
+.courses{
+	color: #636363;
+	margin-top:45px;
+}
+.courses h4{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: OpenSans;
+	margin-top: 0px !important;
+}
+.courses .col-md-4{
+	padding: 0px !important;
+}
+.courses .col-md-4 .col-md-8{
+	padding: 0px !important;	
+}
+.read-more{
+	text-align: center;
+}
+.read-btn{
+	text-transform: uppercase;
+	color: white;
+	margin-top: 40px;
+	background-color: #0090d6;
+}
+.why{
+	height: 122px;
+	text-align: center;
+	margin-bottom: 25px;
+	background: url('../images/index-K-Sir-_11_10.png') no-repeat center;
+}
+.choose p{
+	font-size: 17px;
+	font-weight: bold !important;
+	text-transform: uppercase;
+	font-family: OpenSans;
+	text-align: center;
+	color: #575757;
+}
+.why i{
+	font-size: 30px;
+	color: black;
+	padding: 45px 0px 0px 0px;
+}
+.why-txt{
+	color: #636363;
+	margin-top:45px;
+	margin-bottom: 65px;
+}
+.ratio{
+	height: 350px;
+	background: url("../images/index-K-Sir-_09.png") center; 
+}
+.log{
+	margin:auto;
+	width: 80px;
+	height: 90px;
+	border: 5px solid white;
+	color:white;
+	font-size: 30px;
+	text-align: center;
+}
+.client{
+	margin-top: 65px;
+	text-align: center;
+	color: white;
+}
+.client h2{
+	font-weight: bold;
+}
+.client hr{
+	margin: auto;
+	width: 120px;
+	height: 5px !important;
+}
+.log i{
+	margin-top: 25px; 
+}
+.client p{
+	font-family: OpenSans;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.client-detail{
+	width: 150px;
+	height: 170px;
+	border:10px solid #e6e6e6;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	border-radius: 50%;
+	padding: 0px !important;
+	overflow: hidden;
+}
+.client-img{
+	padding: 25px 0px 0px 3px;
+	transform: scale(2);
+}
+.detail{
+	text-align: left;
+	margin-top: 100px;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+.detail span{
+	color: #0090d6;
+	font-weight: bold;
+}
+.load{
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+.dot1{
+	width: 35px;
+	height: 10px;
+	margin-left: 60px;
+	float: left;
+	border-radius: 2px;
+	background-color: #0090d6;
+}
+.dot{
+	width: 35px;
+	height: 10px;
+	margin-left: 20px;
+	float: left;
+	border-radius: 2px;
+	background-color: #0090d6;
+}
+.dot-color{
+	background-color: #575757;
+}
+.footer{
+	background-color: #28292e;
+	color: white;
+	height: 590px;
+}
+.icon{
+	color: #575757;
+	padding: 0px !important;
+}
+.keep{
+	height:860px;
+	margin-top: 70px;
+	background: url('../images/index-K-Sir-_09 (2).png');
+}
+.icon h3{
+	font-family: OpenSans;
+	margin-top: 10px;
+	font-size: 22px;
+	text-transform: capitalize;
+}
+.icon .col-md-2,.icon .col-lg-2{
+	padding: 0px !important;
+}
+.icon .col-md-12,.icon .col-lg-12
+{
+	margin-top: 40px;
+}
+.connection ul li{
+	width: 40px;
+	height: 40px;
+	margin-top: 15px; 
+	list-style: none;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 5px;
+	margin-right: 5px;
+	display: inline-block;
+}
+.connection ul li:first-child{
+	border:1px solid #3b5998;
+	color: #3b5998;
+	border-radius: 50%;
+}
+.connection ul li:nth-child(2){
+	border:1px solid #dc4a38;
+	border-radius: 50%;
+	color: #dc4a38;
+}
+.connection ul li:nth-child(3){
+	border:1px solid #33bdfd;
+	color: #33bdfd;
+	border-radius: 50%;
+}
+.connection ul li:last-child{
+	border:1px solid #8c693c;
+	border-radius: 50%;
+	color: #8c693c;
+	margin-right: 0px;
+}
+.input-group{
+	width: 100%;
+	margin-bottom: 60px;
+}
+.form{
+	margin-top: 50px;
+}
+.form-control{
+	border: none !important;
+    outline: 0 !important;
+    background: transparent !important;
+    outline: 0;
+    box-shadow: none !important; 
+	border-bottom: 2px solid #575757 !important;
+	border-radius: unset!important;
+	color: #575757 !important;
+	font-family: OpenSans !important;
+}
+.input-group-addon
+{
+	font-size: 20px !important;
+	color: #575757 !important;
+	border: none!important;
+	background: transparent !important; 
+	border-bottom: 2px solid #575757 !important;
+	border-radius: unset!important;
+}
+.send{
+	color: white;
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+	background-color: #0090d6;
+}
+.foot{
+	 margin-top: 50px;
+	 text-align: center;
+}
+.social-icon{
+	margin: auto;
+	width: 60px;
+	height: 60px;
+	padding-top: 15px;
+	text-align: center; 
+	border-radius:50%;
+	font-size: 30px !important;
+	border: 1px solid white;
+}
+.foot p{
+	margin-top: 25px;
+}
+.footer-menu{
+	margin-top: 75px;
+	text-align: center;
+}
+.footer-menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 90px;
+	text-transform: uppercase;
+}
+.footer-icon{
+	margin-top: 90px;
+	text-align: center;
+}
+.footer-icon ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 30px;
+	color: white;
+	margin-right: 60px;
+}
+.back-icon{
+	margin:auto !important;
+	background-color: #212020;
+	border-radius: 50%;
+	margin-top: 50px;
+	font-size: 40px !important;
+	padding: 0px 50px 80px 50px;
+	position: absolute;
+	top: 60px;
+	left: 0PX;
+}
+.back{
+	width: 150px;
+	height: 158px;
+	overflow: hidden;
+	position: relative;
+	margin: auto !important;
+}
+@media (max-width: 597px)
+{
+	.navbar-toggler{
+		margin-top: 10px !important;
+		display: block !important;
+		float: right;
+		margin-top: 10px;
+	}
+	.banner-txt{
+		padding: 0px !important;
+	}
+	.about-txt{
+		padding: 0px !important;
+	}
+	.welcome{
+		margin-top: 20px !important;
+		padding-left: 15px !important;
+	}
+	.course{
+		height: 1100px;
+	}
+	.ratio{
+		height: 500px;
+	}
+	.banner-txt1{
+		margin-top: 300px !important; 
+	}
+	.log{
+		margin-bottom: 20px;
+	}
+	.keep{
+		height:1400px;
+	}
+	.connection ul li{
+		margin-right: 0px !important; 
+	}
+	.menu ul li{
+		margin-left: 40px !important;
+	}
+	.footer{
+		height: 730px;
+	}
+	.footer-menu{
+		margin-top: 0px !important;
+		text-align: center;
+	}
+	.menu{
+		background-color: rgba(0,0,0,0.5);
+	}
+	.menu{
+		margin-top: 40px;
+	}
+	.det .col-sm-6, .det .col-xs-6 {
+		margin-bottom: 30px !important;
+	}
+	.det .col-sm-6, .det .col-xs-6 {
+		margin-bottom: 30px !important;
+	}
+	.menu ul li:first-child{
+		margin-top: 0px !important;
+	}
+	.det .col-sm-6:nth-child(2), .det .col-xs-6:nth-child(2)
+	{
+		padding-bottom: 40px !important;
+	}
+	.bannerSize{
+		height: 800px !important;
+	}
+	.footer-menu ul li{
+		font-size: 11px !important;
+		padding-right: 25px !important;
+	}
+	.footer-menu ul li:last-child{
+		font-size: 11px !important;
+		padding-right: 0px !important;
+	}
+	.footer-icon ul li:first-child{
+		margin-left: 60px !important;
+	}
+}
+.nav-toggle{
+	font-size: 25px !important;
+	background-color: 
+	white; border: 0px !important;"
+}
